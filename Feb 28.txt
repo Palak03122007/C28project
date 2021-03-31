@@ -1,0 +1,70 @@
+function detectCollision1(){
+
+	mango1BodyPosition = mango1.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango1BodyPosition.x,mango1BodyPosition.y)
+	if(distance<=mango1.r+stoneObj.r){
+		Matter.Body.setStatic(mango1.body,false);
+	}
+}
+function detectCollision2(){
+
+	mango2BodyPosition = mango2.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango2BodyPosition.x,mango2BodyPosition.y)
+	if(distance<=mango2.r+stoneObj.r){
+		Matter.Body.setStatic(mango2.body,false);
+	}
+}
+function detectCollision3(){
+
+	mango3BodyPosition = mango3.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango3BodyPosition.x,mango3BodyPosition.y)
+	if(distance<=mango3.r+stoneObj.r){
+		Matter.Body.setStatic(mango3.body,false);
+	}
+}
+function detectCollision4(){
+
+	mango4BodyPosition = mango4.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango4BodyPosition.x,mango4BodyPosition.y)
+	if(distance<=mango4.r+stoneObj.r){
+		Matter.Body.setStatic(mango4.body,false);
+	}
+}
+function detectCollision5(){
+
+	mango5BodyPosition = mango5.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango5BodyPosition.x,mango5BodyPosition.y)
+	if(distance<=mango5.r+stoneObj.r){
+		Matter.Body.setStatic(mango5.body,false);
+	}
+}
+function detectCollision6(){
+
+	mango6BodyPosition = mango6.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango6BodyPosition.x,mango6BodyPosition.y)
+	if(distance<=mango6.r+stoneObj.r){
+		Matter.Body.setStatic(mango6.body,false);
+	}
+}
+function detectCollision7(){
+
+	mango7BodyPosition = mango7.body.position
+	stoneBodyPosition = stoneObj.body.position
+
+	var distance=dist(stoneBodyPosition.x,stoneBodyPosition.y,mango7BodyPosition.x,mango7BodyPosition.y)
+	if(distance<=mango7.r+stoneObj.r){
+		Matter.Body.setStatic(mango7.body,false);
+	}
+}
